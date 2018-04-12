@@ -54,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepeatAString.cs" />
     <Compile Include="ReverseAString.cs" />
+    <Compile Include="SlashFlick.cs" />
     <Compile Include="TitleCaseASentence.cs" />
     <Compile Include="TruncateAString.cs" />
   </ItemGroup>

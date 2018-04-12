@@ -27,5 +27,7 @@ namespace Algorithms.Helpers
         public static string TRUNCATE_A_STRING = "Truncate a string: ";
 
         public static string CHUNKY_MONKEY = "Chunky monkey: ";
+
+        public static string SLASH_FLICK = "Slash flick: ";
     }
 }

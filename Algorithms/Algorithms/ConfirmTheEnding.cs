@@ -17,10 +17,10 @@ namespace ConsoleApp.fCC
                 return true;
             else
             {
-                if ((target.Length - x.Length) < 0)
+                if ((x.Length - target.Length) < 0)
                     return false;
 
-                string y = x.Substring((target.Length - x.Length));
+                string y = x.Substring((x.Length- target.Length));
 
                 if (y.Equals(target))
                     return true;

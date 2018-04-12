@@ -108,6 +108,34 @@ namespace Algorithms
 
             #endregion
 
+            #region SlasherFlick
+            string[] slashArr = new string[] { "1", "2", "3" };
+            foreach(string item in SlashFlick.Slasher(slashArr, 2))
+                Console.WriteLine($"{TextClass.SLASH_FLICK}{item}");
+            Console.WriteLine("######################");
+            foreach (string item in SlashFlick.Slasher(slashArr, 0))
+                Console.WriteLine($"{TextClass.SLASH_FLICK}{item}");
+            Console.WriteLine("######################");
+            foreach (string item in SlashFlick.Slasher(slashArr, 9))
+                Console.WriteLine($"{TextClass.SLASH_FLICK}{item}");
+            Console.WriteLine("######################");
+            foreach (string item in SlashFlick.Slasher(slashArr, 4))
+                Console.WriteLine($"{TextClass.SLASH_FLICK}{item}");
+            Console.WriteLine("######################");
+            slashArr = new string[] { "burgers", "fries", "shake" };
+            foreach (string item in SlashFlick.Slasher(slashArr, 1))
+                Console.WriteLine($"{TextClass.SLASH_FLICK}{item}");
+            Console.WriteLine("######################");
+            slashArr = new string[] { "1", "2", "chicken", "3", "potatoes", "cheese", "4" };
+            foreach (string item in SlashFlick.Slasher(slashArr, 5))
+                Console.WriteLine($"{TextClass.SLASH_FLICK}{item}");
+
+            #endregion
+
+            #region Mutations
+            
+            #endregion
+
             Console.ReadLine();
         }
     }
