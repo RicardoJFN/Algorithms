@@ -42,8 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckForPalindrome.cs" />
+    <Compile Include="ChunkyMonkey.cs" />
+    <Compile Include="ConfirmTheEnding.cs" />
+    <Compile Include="FactorializeANumber.cs" />
+    <Compile Include="Helpers\ReadFileMethod.cs" />
+    <Compile Include="Helpers\TextClass.cs" />
+    <Compile Include="LargestNumberArrays.cs" />
+    <Compile Include="LongestWordInAString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepeatAString.cs" />
+    <Compile Include="ReverseAString.cs" />
+    <Compile Include="TitleCaseASentence.cs" />
+    <Compile Include="TruncateAString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
