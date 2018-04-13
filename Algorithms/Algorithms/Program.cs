@@ -164,6 +164,14 @@ namespace Algorithms
 
             #endregion
 
+            #region FalsyBouncer
+
+            Object[] arrBouncer;
+            arrBouncer = new Object[] { 7, "ate", "", false, 9 };
+            Console.WriteLine($"{TextClass.FALSY_BOUNCER}: {FalsyBouncer.Bouncer(arrBouncer)}");
+
+            #endregion
+
             Console.ReadLine();
         }
     }

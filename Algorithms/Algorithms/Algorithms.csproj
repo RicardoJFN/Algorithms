@@ -46,6 +46,7 @@
     <Compile Include="ChunkyMonkey.cs" />
     <Compile Include="ConfirmTheEnding.cs" />
     <Compile Include="FactorializeANumber.cs" />
+    <Compile Include="FalsyBouncer.cs" />
     <Compile Include="Helpers\ReadFileMethod.cs" />
     <Compile Include="Helpers\TextClass.cs" />
     <Compile Include="LargestNumberArrays.cs" />

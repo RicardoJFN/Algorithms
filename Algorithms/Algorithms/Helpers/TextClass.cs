@@ -31,5 +31,7 @@ namespace Algorithms.Helpers
         public static string SLASH_FLICK = "Slash flick: ";
 
         public static string MUTATIONS = "Mutations: ";
+
+        public static string FALSY_BOUNCER = "Falsy bouncer: ";
     }
 }
