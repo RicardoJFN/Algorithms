@@ -133,7 +133,35 @@ namespace Algorithms
             #endregion
 
             #region Mutations
-            
+
+            string[] arrMut;
+            arrMut = new string[] { "hello", "hey" };
+            Console.WriteLine($"{TextClass.MUTATIONS}{Mutations.Mutation(arrMut)}");
+
+            arrMut = new string[] { "hello", "Hello" };
+            Console.WriteLine($"{TextClass.MUTATIONS}{Mutations.Mutation(arrMut)}");
+
+            arrMut = new string[] { "zyxwvutsrqponmlkjihgfedcba", "qrstu" };
+            Console.WriteLine($"{TextClass.MUTATIONS}{Mutations.Mutation(arrMut)}");
+
+            arrMut = new string[] { "Mary", "Army" };
+            Console.WriteLine($"{TextClass.MUTATIONS}{Mutations.Mutation(arrMut)}");
+
+            arrMut = new string[] { "Mary", "Aarmy" };
+            Console.WriteLine($"{TextClass.MUTATIONS}{Mutations.Mutation(arrMut)}");
+
+            arrMut = new string[] { "Alien", "line" };
+            Console.WriteLine($"{TextClass.MUTATIONS}{Mutations.Mutation(arrMut)}");
+
+            arrMut = new string[] { "floor", "for" };
+            Console.WriteLine($"{TextClass.MUTATIONS}{Mutations.Mutation(arrMut)}");
+
+            arrMut = new string[] { "hello", "neo" };
+            Console.WriteLine($"{TextClass.MUTATIONS}{Mutations.Mutation(arrMut)}");
+
+            arrMut = new string[] { "voodoo", "no" };
+            Console.WriteLine($"{TextClass.MUTATIONS}{Mutations.Mutation(arrMut)}");
+
             #endregion
 
             Console.ReadLine();

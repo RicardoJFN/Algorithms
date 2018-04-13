@@ -50,6 +50,7 @@
     <Compile Include="Helpers\TextClass.cs" />
     <Compile Include="LargestNumberArrays.cs" />
     <Compile Include="LongestWordInAString.cs" />
+    <Compile Include="Mutations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepeatAString.cs" />

@@ -29,5 +29,7 @@ namespace Algorithms.Helpers
         public static string CHUNKY_MONKEY = "Chunky monkey: ";
 
         public static string SLASH_FLICK = "Slash flick: ";
+
+        public static string MUTATIONS = "Mutations: ";
     }
 }
