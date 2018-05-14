@@ -33,5 +33,7 @@ namespace Algorithms.Helpers
         public static string MUTATIONS = "Mutations: ";
 
         public static string FALSY_BOUNCER = "Falsy bouncer: ";
+
+        public static string SEEK = "Seek and Destroy: ";
     }
 }

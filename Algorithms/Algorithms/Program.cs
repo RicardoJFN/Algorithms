@@ -172,6 +172,32 @@ namespace Algorithms
 
             #endregion
 
+            #region SeekAndDestroy
+            int[] seek;
+
+            seek = new int[] { 1, 2, 3, 1, 2, 3 };
+            foreach(int item in SeekAndDestroy.Destroyer(seek, 2, 3))
+                Console.WriteLine($"1º: {TextClass.SEEK}{item}");
+
+
+            seek = new int[] { 1, 2, 3, 5, 1, 2, 3 };
+            foreach(int item in SeekAndDestroy.Destroyer(seek, 2, 3))
+                Console.WriteLine($"2º: {TextClass.SEEK}{item}");
+
+            seek = new int[] { 3, 5, 1, 2, 2 };
+            foreach(int item in SeekAndDestroy.Destroyer(seek, 2, 3, 5))
+                Console.WriteLine($"3º: {TextClass.SEEK}{item}");
+
+            seek = new int[] { 2, 3, 2, 3 };
+            foreach(int item in SeekAndDestroy.Destroyer(seek, 2, 3))
+                Console.WriteLine($"4º: {TextClass.SEEK}{item}");
+
+            string[] seekString = new string[] { "tree", "hamburger", "53" };
+            foreach(string item in SeekAndDestroy.Destroyer(seekString, "tree", "53"))
+                Console.WriteLine($"5º: {TextClass.SEEK}{item}");
+
+            #endregion
+
             Console.ReadLine();
         }
     }
