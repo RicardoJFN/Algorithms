@@ -60,6 +60,7 @@
     <Compile Include="SlashFlick.cs" />
     <Compile Include="TitleCaseASentence.cs" />
     <Compile Include="TruncateAString.cs" />
+    <Compile Include="WhereBelong.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -198,6 +198,33 @@ namespace Algorithms
 
             #endregion
 
+            #region WhereDoIBelong
+
+            int[] nums;
+
+            nums = new int[] { 10, 20, 30, 40, 50 };
+            Console.WriteLine($"{TextClass.WHERE}{WhereBelong.GetIndexToIns(nums, 35)}");
+
+            nums = new int[] { 10, 20, 30, 40, 50 };
+            Console.WriteLine($"{TextClass.WHERE}{WhereBelong.GetIndexToIns(nums, 30)}");
+
+            nums = new int[] { 40, 60 };
+            Console.WriteLine($"{TextClass.WHERE}{WhereBelong.GetIndexToIns(nums, 50)}");
+
+            nums = new int[] { 3, 10, 5 };
+            Console.WriteLine($"{TextClass.WHERE}{WhereBelong.GetIndexToIns(nums, 3)}");
+
+            nums = new int[] { 5, 3, 20, 3 };
+            Console.WriteLine($"{TextClass.WHERE}{WhereBelong.GetIndexToIns(nums, 5)}");
+
+            nums = new int[] { 2, 20, 10 };
+            Console.WriteLine($"{TextClass.WHERE}{WhereBelong.GetIndexToIns(nums, 19)}");
+
+            nums = new int[] { 2, 5, 10 };
+            Console.WriteLine($"{TextClass.WHERE}{WhereBelong.GetIndexToIns(nums, 15)}");
+            #endregion
+
+
             Console.ReadLine();
         }
     }
