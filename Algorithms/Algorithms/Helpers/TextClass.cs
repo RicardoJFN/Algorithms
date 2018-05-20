@@ -37,5 +37,7 @@ namespace Algorithms.Helpers
         public static string SEEK = "Seek and Destroy: ";
 
         public static string WHERE = "Where do i belong: ";
+
+        public static string CIPHER = "Caerars Cipher: ";
     }
 }

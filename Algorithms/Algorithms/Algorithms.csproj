@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CaesarsCipher.cs" />
     <Compile Include="CheckForPalindrome.cs" />
     <Compile Include="ChunkyMonkey.cs" />
     <Compile Include="ConfirmTheEnding.cs" />

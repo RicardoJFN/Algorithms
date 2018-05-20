@@ -224,6 +224,14 @@ namespace Algorithms
             Console.WriteLine($"{TextClass.WHERE}{WhereBelong.GetIndexToIns(nums, 15)}");
             #endregion
 
+            #region Cipher
+
+            Console.WriteLine($"{CaesarsCipher.Rot13("SERR PBQR PNZC")}");
+            Console.WriteLine($"{CaesarsCipher.Rot13("SERR CVMMN!")}");
+            Console.WriteLine($"{CaesarsCipher.Rot13("SERR YBIR?")}");
+            Console.WriteLine($"{CaesarsCipher.Rot13("GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.")}");
+
+            #endregion
 
             Console.ReadLine();
         }
