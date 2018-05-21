@@ -39,5 +39,9 @@ namespace Algorithms.Helpers
         public static string WHERE = "Where do i belong: ";
 
         public static string CIPHER = "Caerars Cipher: ";
+
+        public static string SUM_RANGE = "Sum all numbers in range: ";
+
+        public static string DIFF_TWO_ARR = "Differnce in two arrays: "; 
     }
 }

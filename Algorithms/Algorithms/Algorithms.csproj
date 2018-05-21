@@ -42,26 +42,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CaesarsCipher.cs" />
-    <Compile Include="CheckForPalindrome.cs" />
-    <Compile Include="ChunkyMonkey.cs" />
-    <Compile Include="ConfirmTheEnding.cs" />
-    <Compile Include="FactorializeANumber.cs" />
-    <Compile Include="FalsyBouncer.cs" />
+    <Compile Include="Beginner\CaesarsCipher.cs" />
+    <Compile Include="Beginner\CheckForPalindrome.cs" />
+    <Compile Include="Beginner\ChunkyMonkey.cs" />
+    <Compile Include="Beginner\ConfirmTheEnding.cs" />
+    <Compile Include="Beginner\FactorializeANumber.cs" />
+    <Compile Include="Beginner\FalsyBouncer.cs" />
     <Compile Include="Helpers\ReadFileMethod.cs" />
     <Compile Include="Helpers\TextClass.cs" />
-    <Compile Include="LargestNumberArrays.cs" />
-    <Compile Include="LongestWordInAString.cs" />
-    <Compile Include="Mutations.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Beginner\LargestNumberArrays.cs" />
+    <Compile Include="Beginner\LongestWordInAString.cs" />
+    <Compile Include="Beginner\Mutations.cs" />
+    <Compile Include="Beginner\Program.cs" />
+    <Compile Include="Intermediate\Diff2Arrays.cs" />
+    <Compile Include="Intermediate\SumRange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RepeatAString.cs" />
-    <Compile Include="ReverseAString.cs" />
-    <Compile Include="SeekAndDestroy.cs" />
-    <Compile Include="SlashFlick.cs" />
-    <Compile Include="TitleCaseASentence.cs" />
-    <Compile Include="TruncateAString.cs" />
-    <Compile Include="WhereBelong.cs" />
+    <Compile Include="Beginner\RepeatAString.cs" />
+    <Compile Include="Beginner\ReverseAString.cs" />
+    <Compile Include="Beginner\SeekAndDestroy.cs" />
+    <Compile Include="Beginner\SlashFlick.cs" />
+    <Compile Include="Beginner\TitleCaseASentence.cs" />
+    <Compile Include="Beginner\TruncateAString.cs" />
+    <Compile Include="Beginner\WhereBelong.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

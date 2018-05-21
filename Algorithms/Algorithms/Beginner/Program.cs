@@ -1,4 +1,5 @@
 ﻿using Algorithms.Helpers;
+using Algorithms.Intermediate;
 using ConsoleApp.fCC;
 using System;
 using System.Collections.Generic;
@@ -230,6 +231,38 @@ namespace Algorithms
             Console.WriteLine($"{CaesarsCipher.Rot13("SERR CVMMN!")}");
             Console.WriteLine($"{CaesarsCipher.Rot13("SERR YBIR?")}");
             Console.WriteLine($"{CaesarsCipher.Rot13("GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.")}");
+
+            #endregion
+
+            #region SumInRange
+            int[] arrSum;
+
+            arrSum = new int[] { 1, 4 };
+            Console.WriteLine($"{TextClass.SUM_RANGE}{SumRange.SumAll(arrSum)}");
+
+            arrSum = new int[] { 4, 1 };
+            Console.WriteLine($"{TextClass.SUM_RANGE}{SumRange.SumAll(arrSum)}");
+
+            arrSum = new int[] { 5, 10 };
+            Console.WriteLine($"{TextClass.SUM_RANGE}{SumRange.SumAll(arrSum)}");
+
+            arrSum = new int[] { 10, 5 };
+            Console.WriteLine($"{TextClass.SUM_RANGE}{SumRange.SumAll(arrSum)}");
+            #endregion
+
+            #region Diff2Arrays
+
+            string[] firstDiff;
+            string[] secondDiff;
+            firstDiff = new string[] { "diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub" };
+            secondDiff = new string[] { "diorite", "andesite", "grass", "dirt", "dead shrub" };
+            foreach (var item in Diff2Arrays<string>.Diff(firstDiff, secondDiff))
+                Console.WriteLine($"{TextClass.DIFF_TWO_ARR}{item}");
+
+            firstDiff = new string[] { "andesite", "grass", "dirt", "pink wool", "dead shrub" };
+            secondDiff = new string[] { "diorite", "andesite", "grass", "dirt", "dead shrub" };
+            foreach (var item in Diff2Arrays<string>.Diff(firstDiff, secondDiff))
+                Console.WriteLine($"{TextClass.DIFF_TWO_ARR}{item}");
 
             #endregion
 
