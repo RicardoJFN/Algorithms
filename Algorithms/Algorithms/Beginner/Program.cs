@@ -257,13 +257,37 @@ namespace Algorithms
             firstDiff = new string[] { "diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub" };
             secondDiff = new string[] { "diorite", "andesite", "grass", "dirt", "dead shrub" };
             foreach (var item in Diff2Arrays<string>.Diff(firstDiff, secondDiff))
-                Console.WriteLine($"{TextClass.DIFF_TWO_ARR}{item}");
+                Console.WriteLine($"1: {TextClass.DIFF_TWO_ARR}{item}");
 
             firstDiff = new string[] { "andesite", "grass", "dirt", "pink wool", "dead shrub" };
             secondDiff = new string[] { "diorite", "andesite", "grass", "dirt", "dead shrub" };
             foreach (var item in Diff2Arrays<string>.Diff(firstDiff, secondDiff))
-                Console.WriteLine($"{TextClass.DIFF_TWO_ARR}{item}");
+                Console.WriteLine($"2: {TextClass.DIFF_TWO_ARR}{item}");
 
+            firstDiff = new string[] { "andesite", "grass", "dirt", "dead shrub" };
+            secondDiff = new string[] { "andesite", "grass", "dirt", "dead shrub" };
+            foreach (var item in Diff2Arrays<string>.Diff(firstDiff, secondDiff))
+                Console.WriteLine($"3: {TextClass.DIFF_TWO_ARR}{item}");
+
+            int[] firstDiffInt = new int[] { 1, 2, 3, 5 };
+            int[] secondDiffInt = new int[] {1,2,3,4,5 };
+            foreach (var item in Diff2Arrays<int>.Diff(firstDiffInt, secondDiffInt))
+                Console.WriteLine($"4: {TextClass.DIFF_TWO_ARR}{item}");
+
+            firstDiff = new string[] { "1", "calf", "3", "piglet" };
+            secondDiff = new string[] { "1", "calf", "3", "4" };
+            foreach (var item in Diff2Arrays<string>.Diff(firstDiff, secondDiff))
+                Console.WriteLine($"5: {TextClass.DIFF_TWO_ARR}{item}");
+
+            firstDiff = new string[] {  };
+            secondDiff = new string[] { "snuffleupagus", "cookie monster", "elmo" };
+            foreach (var item in Diff2Arrays<string>.Diff(firstDiff, secondDiff))
+                Console.WriteLine($"6: {TextClass.DIFF_TWO_ARR}{item}");
+
+            firstDiff = new string[] { "1", "calf", "3", "piglet" };
+            secondDiff = new string[] { "7", "filly" };
+            foreach (var item in Diff2Arrays<string>.Diff(firstDiff, secondDiff))
+                Console.WriteLine($"7: {TextClass.DIFF_TWO_ARR}{item}");
             #endregion
 
             Console.ReadLine();
