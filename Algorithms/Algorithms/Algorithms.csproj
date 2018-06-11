@@ -55,6 +55,7 @@
     <Compile Include="Beginner\Mutations.cs" />
     <Compile Include="Beginner\Program.cs" />
     <Compile Include="Intermediate\Diff2Arrays.cs" />
+    <Compile Include="Intermediate\SeekAndDestroy.cs" />
     <Compile Include="Intermediate\SumRange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Beginner\RepeatAString.cs" />
